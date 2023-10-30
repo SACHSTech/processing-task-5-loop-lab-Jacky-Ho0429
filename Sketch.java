@@ -88,10 +88,7 @@ public class Sketch extends PApplet {
     }
   }
 
-  /**
-   * Use the modulus operator and an if statement to select the color
-   * Don't loop from 30 to 60 to shift everything over, just add 300 to x.
-   */
+
   public void draw_section2(){
     int intX = 0;
     int intY = 0;
@@ -118,10 +115,6 @@ public class Sketch extends PApplet {
 
   }
 
-  /**
-   * Use the modulus operator and an if/else statement to select the color.
-   * Don't use multiple 'if' statements.
-   */
   public void draw_section3(){
     int intX = 0;
     int intY = 0;
@@ -148,9 +141,6 @@ public class Sketch extends PApplet {
 
   }
 
-  /**
-   * Use the modulus operator and just one 'if' statement to select the color.
-   */
   public void draw_section4(){
     int intX = 0;
     int intY = 0;
@@ -178,9 +168,6 @@ public class Sketch extends PApplet {
     }
   }
 
-  /**
-   * Do NOT use 'if' statements to complete 5-8. Manipulate the loops instead
-   */
   public void draw_section5(){
     int intX = 0;
     int intY = 0;
@@ -250,10 +237,4 @@ public class Sketch extends PApplet {
       }
     }
   }
-
-
-
-
-
-
 }
