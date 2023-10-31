@@ -155,7 +155,7 @@ public class Sketch extends PApplet {
         intXTen = (intX / 10) % 10;
         intYTen = (intY / 10) % 10;
 
-        if ((intYTen % 2 != 0) && (intXTen % 2 != 0)) {
+        if ((intYTen % 2 != 0) && (intXTen % 2 == 0)) {
           fill(255);
         } else {
           fill (0);
