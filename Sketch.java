@@ -127,7 +127,7 @@ public class Sketch extends PApplet {
         intY = 300 + 3 + intColumn * 10; 
         intYTen = (intY / 10) % 10;
 
-        if (intYTen % 2 == 0) {
+        if (intYTen % 2 != 0) {
           fill(255);
         } else {
           fill (0);
